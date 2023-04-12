@@ -1,0 +1,30 @@
+.chatContainer{
+    width: 100%;
+}
+.chatQuestion, .chatAnswer{
+    width: 40%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px 5px 5px 1px;
+    animation: show 1 .3s  linear;
+    font-size: 1.2rem;
+}
+.chatAnswer{
+    width: 40%;
+    padding: 20px;
+    background-color: #dbebdf;
+    border-radius: 5px 5px 1px 5px;
+    margin-left: auto;
+    animation: show 1 .3s linear;
+}
+
+@keyframes show {
+    0%{
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

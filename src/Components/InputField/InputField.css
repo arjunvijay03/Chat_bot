@@ -1,0 +1,40 @@
+.inputFieldContainer{
+    width: 100%;
+    height: 60px;
+    background-color: #aeaeae;
+    padding-inline: 10px;
+    
+}
+.inputForm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.inputFieldContainer input[type='text']{
+    width: 91%;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    padding-inline: 10px;
+    font-size: 1rem;
+}
+input:is(:focus, :active){
+    border: none;
+    outline: none;
+}
+.sendBtn{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: rgb(191, 191, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
