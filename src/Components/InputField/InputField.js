@@ -5,10 +5,8 @@ function InputField({setCurrentIndex, currentIndex,setShowResult}) {
   const {questions, setQuestions, setAnswers, answers} = useContext(questionContext)
   const [currentInput, setCourrentInput] = useState()
   useEffect(()=>{
-    console.log(questions[currentIndex]);
     setCourrentInput(questions[currentIndex].input)
   },[currentIndex, questions])
-  console.log(answers.name);
   const handleChange = (event)=>{
       let {name, value} = event.target
     name && setAnswers(prev=>({...prev, 

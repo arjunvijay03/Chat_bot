@@ -3,8 +3,8 @@ import './NavBar.css'
 function NavBar() {
   return (
     <div className='navBarContainer'>
-      <i class="fa-solid fa-arrow-left"></i>
-      <i class="fa-solid fa-ellipsis-vertical"></i>
+      <i className="fa-solid fa-arrow-left"></i>
+      <i className="fa-solid fa-ellipsis-vertical"></i>
     </div>
   )
 }

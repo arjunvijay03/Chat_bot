@@ -10,7 +10,6 @@ function App() {
   const {questions,answers} = useContext(questionContext)
   const [showResult, setShowResult] = useState(false)
   const [currentIndex, setCurrentIndex] = useState(0)
-  console.log(currentIndex);
   useEffect(()=>{
     setTimeout(()=>{
       setCurrentIndex(1)
